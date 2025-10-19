@@ -1,0 +1,27 @@
+op main() nret {
+    let x: i32 = 5;
+    let y: i32 = 15;
+
+    print(bool_to_str(control(x, y)));
+    // or
+    (x, y)->control->bool_to_str->print;
+}
+
+op bool_to_str(res: bool) str {
+    if res {
+        success "yes it is true!";
+    } else {
+        success "sorry, it is false:(";
+    }
+
+    success false;
+}
+
+
+op control(x: i32, y: i32) bool {
+    if x < y and y < 50 { // if x < y && y < 50
+        success true;
+    }
+
+    success false;
+}

@@ -1,0 +1,18 @@
+// this is a command line!
+
+let var: i32 = 5;
+let st: str = "this is a literal!";
+let ch: char = 'e';
+
+data MyData {
+    x: f32,
+    y: f32,
+    name: str
+}
+
+let con: bool;
+if var == 5 {
+    con = true;
+} else {
+    con = false;
+}

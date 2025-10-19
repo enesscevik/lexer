@@ -1,0 +1,2 @@
+// Invalid char literal
+let c: char = 'ab';

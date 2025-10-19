@@ -1,0 +1,8 @@
+// valid identifiers
+let ident: str;
+let _ident: str;
+let ident_22: str;
+let CONST: str;
+
+// Invalid identifier
+let 123var: i32 = 5;

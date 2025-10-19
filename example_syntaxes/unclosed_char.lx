@@ -1,0 +1,2 @@
+// Unclosed char literal
+let c: char = 'a;

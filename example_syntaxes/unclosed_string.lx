@@ -1,0 +1,4 @@
+// Unclosed string literal
+let s: string = "Hello, world;
+
+// this is invalid command line because the string literal unclosed!

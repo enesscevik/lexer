@@ -1,0 +1,16 @@
+for i : 0->100 {
+    if i + 12 < 100 {
+        break;
+    } else {
+        continue;
+    }
+    print(i); // dead code
+}
+
+while true {
+    // this is a infinity loop!
+}
+
+loop {
+    // this is a infinity loop too!
+}

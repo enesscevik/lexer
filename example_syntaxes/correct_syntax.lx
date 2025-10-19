@@ -1,0 +1,27 @@
+
+// Correct Syntax Example
+
+op main() nret {
+    let x: i32 = 10;
+    let y: i32 = 20;
+    let is_greater: bool = x > y;
+
+    if is_greater {
+        print("x is greater than y");
+    } else {
+        print("y is greater than or equal to x");
+    }
+
+    let name: string = "Gemini";
+    print("Hello, " + name + "!");
+
+    let a: i32 = 0;
+    while a < 5 {
+        a = a + 1;
+        print(a);
+    }
+}
+
+op add(a: i32, b: i32) i32 {
+    success a + b;
+}
